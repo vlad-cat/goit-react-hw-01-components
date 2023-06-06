@@ -1,0 +1,28 @@
+.transaction__history {
+  margin-top: 60px;
+  max-width: 960px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.transaction__history th,
+.transaction__history td {
+  padding: 10px;
+  text-align: center;
+}
+
+.transaction__history tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.transaction__history td:first-child {
+  text-transform: capitalize;
+}
+
+.transaction__history thead {
+  background-color: rgb(100, 157, 164);
+  color: #ffffff;
+}

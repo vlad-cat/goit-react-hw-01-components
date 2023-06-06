@@ -1,0 +1,32 @@
+.statistics {
+  display: flex;
+  flex-direction: column;
+  margin: 90px auto;
+  max-width: 460px;
+  background-color: white;
+}
+
+.title {
+  display: flex;
+  min-height: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+}
+
+.stat__list {
+  display: flex;
+  width: 100%;
+  min-height: 90px;
+  background-color: #d3e1e9;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  border: 1px solid #ccc;
+}
